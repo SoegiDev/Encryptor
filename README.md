@@ -1,14 +1,13 @@
 # Encryption and Decrytion Password
 
+```
 Features
 - Create Encryption (AES)
 - Create Decryption (AES)
-```
 // Install Encryption
 First get `Encryption`
-
 bash
-
+```
 go get github.com/SoegiDec/Encryptor
 
 // Initiate Encryption
