@@ -19,9 +19,9 @@ func TestPassword(m *testing.T) {
 	//secretKey24Bit := "asuperstrong24bitpasswor"
 	//secretKey16Bit := "asuperstrong16bi"
 	setPassword := Encryption.New(secretKey32Bit)
-	encryptPassword, _ := setPassword.EncryptPassword("Fajarsoegi")
+	encryptPassword, _ := setPassword.EncryptPassword("TestPassword")
 	decryptPassword, _ := setPassword.DecryptPassword(encryptPassword)
-	if decryptPassword == "Fajarsoegi" {
+	if decryptPassword == "TestPassword" {
 		fmt.Println("Password Encryption and Decryption is Working Password Is =  " + decryptPassword)
 	} else {
 		fmt.Println("Not Working")
