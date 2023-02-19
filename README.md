@@ -22,8 +22,8 @@ SampleSecret_16Bit := "pass16bitstrong!"
 encryption :=  Encryption.New(SampleSecret_32Bit)
 ```
 // Get Encryption
-Password := "PasswordString"
 ```
+Password := "PasswordString"
 encryptPassword, _ := encryption.EncryptPassword(Password)
 ```
 // Get Decryption
