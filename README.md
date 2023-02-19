@@ -18,10 +18,15 @@ SampleSecret_24Bit := "mypasswordstrong24bitpas"
 SampleSecret_16Bit := "pass16bitstrong!"
 
 // initiate authority
+```
 encryption :=  Encryption.New(SampleSecret_32Bit)
-
+```
 // Get Encryption
 Password := "PasswordString"
+```
 encryptPassword, _ := encryption.EncryptPassword(Password)
+```
 // Get Decryption
+```
 decryptPassword, _ := encryption.DecryptPassword(encryptPassword)
+```
