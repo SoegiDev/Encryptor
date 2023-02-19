@@ -7,7 +7,7 @@ Features
 # Install
 First get `Encryption`
 ```bash
-go get github.com/SoegiDec/Encryptor
+go get github.com/SoegiDev/Encryptor
 ```
 # Usage
 
